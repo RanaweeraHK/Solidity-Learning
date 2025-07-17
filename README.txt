@@ -29,3 +29,5 @@ For unsupported modules, an error like this will be thrown: '<module_name> modul
 
 
 SPDX = Software Package Data Exchange :=  for whom can this contract use open-source or not
+
+Access the note here : https://1drv.ms/o/c/1b0a0a792b842921/Ej36uscNj3xBqTJJzOldqqAB9Pqw68aIfqpHdMjBnq8SBw?e=DUyeaP
