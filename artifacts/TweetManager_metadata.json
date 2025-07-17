@@ -1,0 +1,185 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tweet",
+						"type": "string"
+					}
+				],
+				"name": "createTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_author",
+						"type": "address"
+					}
+				],
+				"name": "getAllTweets",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "author",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "likes",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct TweetManager.Tweet[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "getTweet",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "author",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "likes",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct TweetManager.Tweet",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tweets",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "content",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "likes",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_tweet_struct.sol": "TweetManager"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_tweet_struct.sol": {
+			"keccak256": "0xbd224ab37ce4ff2edb49a2d728ea7ce6f105997a1891e5c83980c1ba56504a8a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ef2007fa46e7bf2ab4989a812ce2e7cf71ad36f8b6eca7e7574941d7398b530",
+				"dweb:/ipfs/QmVa6see8T4TrX6gfRqDzYHCs5aovnGkDVxiU8BYqKLNqg"
+			]
+		}
+	},
+	"version": 1
+}
